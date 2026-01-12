@@ -20,10 +20,14 @@ function App() {
         />
 
         <img 
-          className="absolute bottom-0 left-0 w-full"
+          className="absolute bottom-0 left-0 w-full xl:hidden"
           src="/images/bg-curvy-mobile.svg" 
           alt="bg curvy mobile" 
         />
+        <img 
+          className="hidden absolute bottom-0 left-0 w-full xl:block"
+          src="/images/bg-curvy-desktop.svg" 
+          alt="bg curvy-desktop" />
 
       </section>
 
